@@ -1,0 +1,168 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Cor de destaque */
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center; /* Centraliza o conteúdo das seções */
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #0056b3; /* Cor dos títulos das seções */
+}
+
+/* Hero Section */
+.hero {
+    background: #007bff;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: #ffd700;
+    color: #333;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background: #ffcc00;
+}
+
+/* Services Section */
+.service-list {
+    display: flex;
+    justify-content: center; /* Centraliza os itens de serviço */
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-item {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: left; /* Alinha o texto dentro dos itens de serviço */
+}
+
+.service-item h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact form {
+    max-width: 500px;
+    margin: 20px auto; /* Centraliza o formulário */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left; /* Alinha os rótulos e campos à esquerda */
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button[type="submit"] {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+.contact button[type="submit"]:hover {
+    background: #218838;
+}
+
+.form-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green; /* Cor para mensagens de sucesso */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
