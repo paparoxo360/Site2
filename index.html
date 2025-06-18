@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina 4.1 - Sua Oficina Mecânica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="4.1-circulo-2.png" alt="Oficina 4.1 Logo" class="logo">
+            <h1>Oficina 4.1</h1>
+            <p>Sua paixão por carros, nossa expertise em mecânica.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#services">Nossos Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="container">
+            <h2>Sobre a Oficina 4.1</h2>
+            <p>Bem-vindo à Oficina 4.1, o seu destino confiável para todas as necessidades automotivas. Com anos de experiência e uma equipe de mecânicos altamente qualificados, estamos dedicados a fornecer serviços de alta qualidade e um atendimento excepcional. Nosso objetivo é garantir que seu veículo esteja sempre em perfeitas condições, oferecendo segurança e desempenho.</p>
+            <p>Na Oficina 4.1, combinamos paixão por carros com tecnologia de ponta para diagnosticar e resolver qualquer problema, do mais simples ao mais complexo. Valorizamos a transparência e a confiança, e é por isso que sempre explicamos o trabalho a ser feito e oferecemos orçamentos claros antes de iniciar qualquer serviço.</p>
+        </section>
+
+        <section id="services" class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Mecânica Geral</h3>
+                    <p>Diagnóstico e reparo de sistemas de motor, transmissão e muito mais.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Freios</h3>
+                    <p>Manutenção e substituição de pastilhas, discos, fluidos e sistemas de freio.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Suspensão</h3>
+                    <p>Reparo e troca de amortecedores, molas e componentes da suspensão para um rodar suave.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Injeção Eletrônica</h3>
+                    <p>Diagnóstico e reparo de sistemas de injeção para otimizar o desempenho do motor.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Solda MIG</h3>
+                    <p>Serviços de soldagem MIG para reparos estruturais e personalizações.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Escapamentos Especiais</h3>
+                    <p>Instalação e customização de sistemas de escapamento para melhor performance e som.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Limpeza de Bico</h3>
+                    <p>Limpeza ultrassônica de bicos injetores para otimizar o consumo de combustível.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Adaptações</h3>
+                    <p>Realizamos adaptações e modificações em veículos conforme suas necessidades e projetos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Entre em Contato</h2>
+            <p>Estamos prontos para atender você! Entre em contato para agendar um serviço ou tirar suas dúvidas.</p>
+            <div class="contact-info">
+                <p><strong>Telefone/WhatsApp:</strong> <a href="https://wa.me/55997330664" target="_blank">(55) 99733-0664</a></p>
+                <p><strong>Horário de Atendimento:</strong> Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h</p>
+                <p>Estamos localizados em Santa Isabel, São Paulo, Brasil.</p>
+            </div>
+            <form id="contact-form">
+                <h3>Envie-nos uma Mensagem</h3>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+                <p id="form-status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Oficina 4.1. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
